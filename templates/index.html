@@ -2,59 +2,263 @@
 <html>
 <head>
   <title>Knee Health Predictor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; padding: 2em; max-width: 700px; margin: auto; }
-    input, select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; }
-    button { padding: 10px 20px; background: #6a0dad; color: white; border: none; border-radius: 4px; cursor: pointer; }
-    button:hover { background: #580e99; }
-    h2, h3 { color: #444; }
-    ul { background: #f9f9f9; padding: 15px; border-radius: 5px; }
-    li { margin-bottom: 10px; }
+    :root {
+      --primary-color: #009688;
+      --primary-hover: #00695c;
+      --background-color: #e0f7fa;
+      --card-background: #e8f5e9;
+      --text-color: #1b3c36;
+      --border-color: #b2dfdb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa 0%, #b2dfdb 100%);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(232,245,233,0.97);
+      padding: 2.5rem 2rem;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px 0 rgba(106,13,173,0.10), 0 1.5px 6px 0 rgba(0,0,0,0.04);
+      backdrop-filter: blur(2px);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+      transition: box-shadow 0.2s;
+    }
+    .form-group:focus-within {
+      box-shadow: 0 0 0 2px #e3d0fa;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: var(--text-color);
+      letter-spacing: 0.2px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+      background: #e0f7fa;
+      box-shadow: 0 1px 2px rgba(106,13,173,0.03);
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: var(--primary-color);
+      background: #b2dfdb;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 8px rgba(106,13,173,0.08);
+      letter-spacing: 0.5px;
+    }
+
+    button:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 4px 16px rgba(106,13,173,0.13);
+    }
+
+    .prediction-section {
+      margin-top: 2rem;
+      padding: 1.2rem 1.5rem;
+      background-color: #e0f7fa;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      border: 1px solid #b2dfdb;
+      animation: fadeIn 0.7s;
+      transition: box-shadow 0.2s;
+    }
+    .prediction-section:hover {
+      box-shadow: 0 4px 16px rgba(106,13,173,0.10);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .prediction-section h2 {
+      color: var(--primary-color);
+      margin-bottom: 0.7rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .prediction-section h3 {
+      color: #333;
+      margin: 1rem 0 0.7rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      letter-spacing: 0.2px;
+    }
+
+    .diagnosis-list {
+      list-style: disc inside;
+      padding-left: 1.2em;
+      margin: 0.2em 0 0 0;
+    }
+
+    .diagnosis-list li {
+      background: none;
+      box-shadow: none;
+      padding: 0.4em 0 0.4em 0.2em;
+      margin-bottom: 0.2em;
+      border-radius: 0;
+      color: #444;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .diagnosis-list li:hover {
+      color: var(--primary-color);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      
+      .container {
+        padding: 1.5rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Knee Health Predictor</h1>
-  <form method="POST">
-    <label>Age Group</label>
-    <select name="ageGroup">
-      <option>Young</option>
-      <option>Young Adult</option>
-      <option selected>Adult</option>
-      <option>Older Adult</option>
-      <option>Senior</option>
-    </select>
+  <div class="container">
+    <h1>Langda</h1>
+    <form method="POST">
+      <div class="form-group">
+        <label>Age Group</label>
+        <select name="ageGroup">
+          <option>Young</option>
+          <option>Young Adult</option>
+          <option selected>Adult</option>
+          <option>Older Adult</option>
+          <option>Senior</option>
+        </select>
+      </div>
 
-    <label>Gender</label>
-    <select name="gender">
-      <option>Male</option>
-      <option>Female</option>
-      <option>Non-binary</option>
-    </select>
+      <div class="form-group">
+        <label>Gender</label>
+        <select name="gender">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Non-binary</option>
+        </select>
+      </div>
 
-    <label>Height (cm)</label><input type="number" name="height" step="0.1" required />
-    <label>Weight (kg)</label><input type="number" name="weight" step="0.1" required />
-    <label>Temperature (°C)</label><input type="number" name="temperature" step="0.1" required />
-    <label>Pressure (N)</label><input type="number" name="pressure" step="0.1" required />
-    <label>Gyro X (rad/s)</label><input type="number" name="gyroX" step="0.01" required />
-    <label>Gyro Y (rad/s)</label><input type="number" name="gyroY" step="0.01" required />
-    <label>Gyro Z (rad/s)</label><input type="number" name="gyroZ" step="0.01" required />
-    <label>Accel X (m/s²)</label><input type="number" name="accelX" step="0.01" required />
-    <label>Accel Y (m/s²)</label><input type="number" name="accelY" step="0.01" required />
-    <label>Accel Z (m/s²)</label><input type="number" name="accelZ" step="0.01" required />
+      <div class="form-group">
+        <label>Height (cm)</label>
+        <input type="number" name="height" step="0.1" required />
+      </div>
 
-    <button type="submit">Predict</button>
-  </form>
+      <div class="form-group">
+        <label>Weight (kg)</label>
+        <input type="number" name="weight" step="0.1" required />
+      </div>
 
-  {% if prediction %}
-    <h2>Prediction: {{ prediction }}</h2>
-    {% if diagnosis %}
-      <h3>📋 Possible Diagnoses & Insights:</h3>
-      <ul>
-        {% for issue in diagnosis %}
-          <li>{{ issue | safe }}</li>
-        {% endfor %}
-      </ul>
+      <div class="form-group">
+        <label>Temperature (°C)</label>
+        <input type="number" name="temperature" step="0.1" required />
+      </div>
+
+      <div class="form-group">
+        <label>Pressure (N)</label>
+        <input type="number" name="pressure" step="0.1" required />
+      </div>
+
+      <div class="form-group">
+        <label>Gyro X (rad/s)</label>
+        <input type="number" name="gyroX" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label>Gyro Y (rad/s)</label>
+        <input type="number" name="gyroY" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label>Gyro Z (rad/s)</label>
+        <input type="number" name="gyroZ" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label>Accel X (m/s²)</label>
+        <input type="number" name="accelX" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label>Accel Y (m/s²)</label>
+        <input type="number" name="accelY" step="0.01" required />
+      </div>
+
+      <div class="form-group">
+        <label>Accel Z (m/s²)</label>
+        <input type="number" name="accelZ" step="0.01" required />
+      </div>
+
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+      <div class="prediction-section">
+        <h2>Prediction: {{ prediction }}</h2>
+        {% if diagnosis %}
+          <h3>📋 Possible Diagnoses & Insights:</h3>
+          <ul class="diagnosis-list">
+            {% for issue in diagnosis %}
+              <li>{{ issue | safe }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
     {% endif %}
-  {% endif %}
+  </div>
 </body>
 </html>
