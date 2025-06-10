@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OctaKnee | Knee Health Predictor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1976d2;
+      --accent: #66bb6a;
+      --background: #f4f6f8;
+      --card-bg: #ffffff;
+      --text: #2e3c43;
+      --border: #e0e0e0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: var(--card-bg);
+      padding: 2rem 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+
+    label {
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+      display: block;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border 0.3s;
+      background: #f9f9f9;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--primary);
+      outline: none;
+      background: #fff;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 1.2rem;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+
+    .prediction-section {
+      margin-top: 2rem;
+      background: #f0fdf4;
+      border-left: 5px solid var(--accent);
+      padding: 1.2rem 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      animation: fadeIn 0.4s ease;
+    }
+
+    .prediction-section h2 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>OctaKnee</h1>
+    <form method="POST">
+      <div class="form-group"><label>Age Group</label><select name="ageGroup"><option>Young</option><option>Young Adult</option><option selected>Adult</option><option>Older Adult</option><option>Senior</option></select></div>
+      <div class="form-group"><label>Gender</label><select name="gender"><option>Male</option><option>Female</option><option>Non-binary</option></select></div>
+      <div class="form-group"><label>Height (cm)</label><input type="number" name="height" step="0.1" required></div>
+      <div class="form-group"><label>Weight (kg)</label><input type="number" name="weight" step="0.1" required></div>
+      <div class="form-group"><label>Temperature (°C)</label><input type="number" name="temperature" step="0.1" required></div>
+      <div class="form-group"><label>Pressure (N)</label><input type="number" name="pressure" step="0.1" required></div>
+      <div class="form-group"><label>Gyro X (rad/s)</label><input type="number" name="gyroX" step="0.01" required></div>
+      <div class="form-group"><label>Gyro Y (rad/s)</label><input type="number" name="gyroY" step="0.01" required></div>
+      <div class="form-group"><label>Gyro Z (rad/s)</label><input type="number" name="gyroZ" step="0.01" required></div>
+      <div class="form-group"><label>Accel X (m/s²)</label><input type="number" name="accelX" step="0.01" required></div>
+      <div class="form-group"><label>Accel Y (m/s²)</label><input type="number" name="accelY" step="0.01" required></div>
+      <div class="form-group"><label>Accel Z (m/s²)</label><input type="number" name="accelZ" step="0.01" required></div>
+      <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <div class="prediction-section">
+      <h2>Prediction: {{ prediction }}</h2>
+      {% if diagnosis %}
+        <h3>Possible Diagnoses & Insights:</h3>
+        <ul>
+          {% for issue in diagnosis %}
+            <li>{{ issue | safe }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

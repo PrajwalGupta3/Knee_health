@@ -1,0 +1,1001 @@
+ID,Age Group,Height (cm),Weight (kg),Gender,Temperature (°C),Pressure (N),Gyro X (rad/s),Gyro Y (rad/s),Gyro Z (rad/s),Accel X (m/s²),Accel Y (m/s²),Accel Z (m/s²),Target Class
+1,Young,165,60,Male,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+2,Young Adult,170,68,Female,37.0,680,0.4,0.2,0.1,0.8,0.6,9.7,Healthy Knee
+3,Adult,176,75,Male,38.3,720,0.6,0.4,0.3,1.3,1.0,9.5,Potentially Unhealthy Knee
+4,Older Adult,168,82,Female,39.5,790,0.8,0.6,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+5,Senior,162,88,Female,40.1,820,1.0,0.9,0.5,2.2,1.9,9.0,Potentially Unhealthy Knee
+6,Young,167,55,Non-binary,36.2,500,0.1,0.05,0.02,0.2,0.15,9.8,Healthy Knee
+7,Adult,175,77,Female,38.0,710,0.5,0.3,0.2,1.0,0.8,9.6,Potentially Unhealthy Knee
+8,Older Adult,169,85,Male,39.0,780,0.7,0.5,0.3,1.5,1.2,9.4,Potentially Unhealthy Knee
+9,Senior,164,90,Female,40.0,810,0.9,0.8,0.4,2.0,1.7,9.1,Potentially Unhealthy Knee
+10,Young Adult,172,65,Male,36.8,670,0.3,0.15,0.1,0.6,0.4,9.7,Healthy Knee
+11,Adult,174,74,Female,38.1,715,0.5,0.3,0.2,1.1,0.9,9.5,Potentially Unhealthy Knee
+12,Older Adult,170,83,Male,39.2,785,0.7,0.5,0.3,1.6,1.3,9.3,Potentially Unhealthy Knee
+13,Senior,161,87,Female,40.3,815,1.0,0.9,0.5,2.3,1.8,9.1,Potentially Unhealthy Knee
+14,Young,166,58,Non-binary,36.3,505,0.1,0.05,0.02,0.3,0.2,9.8,Healthy Knee
+15,Young Adult,175,69,Male,37.2,675,0.3,0.2,0.1,0.5,0.3,9.7,Healthy Knee
+16,Adult,178,78,Female,38.5,725,0.6,0.4,0.3,1.4,1.1,9.4,Potentially Unhealthy Knee
+17,Older Adult,169,84,Male,39.8,795,0.8,0.6,0.4,1.7,1.4,9.2,Potentially Unhealthy Knee
+18,Senior,162,89,Female,40.5,825,1.1,1.0,0.6,2.4,2.0,9.0,Potentially Unhealthy Knee
+19,Young,164,56,Male,36.6,515,0.2,0.1,0.05,0.4,0.3,9.7,Healthy Knee
+20,Young Adult,171,67,Female,37.3,685,0.4,0.25,0.12,0.9,0.7,9.6,Healthy Knee
+21,Adult,173,76,Male,38.4,730,0.6,0.4,0.3,1.2,1.0,9.5,Potentially Unhealthy Knee
+22,Senior,160,89,Female,40.2,810,1.0,0.9,0.5,2.1,1.8,9.1,Potentially Unhealthy Knee
+23,Young,165,59,Female,36.4,510,0.2,0.1,0.05,0.4,0.3,9.8,Healthy Knee
+24,Young Adult,174,67,Male,37.0,660,0.3,0.2,0.1,0.5,0.4,9.7,Healthy Knee
+25,Older Adult,170,83,Male,39.1,780,0.8,0.6,0.4,1.6,1.3,9.3,Potentially Unhealthy Knee
+26,Adult,176,78,Female,38.5,725,0.6,0.4,0.3,1.3,1.0,9.4,Potentially Unhealthy Knee
+27,Young,163,54,Non-binary,36.0,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+28,Senior,162,88,Female,40.4,820,1.1,1.0,0.6,2.4,2.0,9.0,Potentially Unhealthy Knee
+29,Young Adult,175,66,Male,37.2,670,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+30,Older Adult,168,85,Female,39.6,790,0.9,0.7,0.4,1.7,1.5,9.2,Potentially Unhealthy Knee
+31,Adult,174,74,Male,38.0,705,0.5,0.3,0.2,1.1,0.8,9.5,Potentially Unhealthy Knee
+32,Young,167,55,Female,36.3,500,0.1,0.05,0.02,0.3,0.2,9.8,Healthy Knee
+33,Senior,161,87,Female,40.1,815,1.0,0.9,0.5,2.3,1.9,9.1,Potentially Unhealthy Knee
+34,Young Adult,173,69,Non-binary,37.3,680,0.3,0.2,0.1,0.7,0.5,9.6,Healthy Knee
+35,Older Adult,170,84,Male,39.0,775,0.8,0.6,0.3,1.6,1.3,9.3,Potentially Unhealthy Knee
+36,Adult,175,77,Female,38.3,710,0.6,0.4,0.3,1.2,1.0,9.5,Potentially Unhealthy Knee
+37,Young,166,56,Male,36.7,520,0.2,0.1,0.05,0.4,0.3,9.7,Healthy Knee
+38,Senior,159,86,Female,40.5,825,1.1,1.0,0.6,2.5,2.1,9.0,Potentially Unhealthy Knee
+39,Young Adult,172,68,Female,36.9,665,0.4,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+40,Older Adult,169,82,Male,39.3,785,0.9,0.7,0.4,1.8,1.4,9.2,Potentially Unhealthy Knee
+41,Adult,173,76,Female,38.2,718,0.5,0.3,0.2,1.2,1.0,9.5,Potentially Unhealthy Knee
+42,Young Adult,170,66,Male,36.9,660,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+43,Older Adult,168,83,Male,39.3,780,0.8,0.6,0.4,1.7,1.4,9.3,Potentially Unhealthy Knee
+44,Young,165,57,Female,36.4,510,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+45,Senior,160,88,Female,40.2,815,1.0,0.9,0.5,2.1,1.8,9.1,Potentially Unhealthy Knee
+46,Adult,175,79,Male,38.6,730,0.6,0.4,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+47,Young Adult,171,67,Non-binary,37.1,670,0.3,0.2,0.1,0.7,0.5,9.6,Healthy Knee
+48,Older Adult,167,84,Female,39.6,790,0.9,0.7,0.4,1.8,1.5,9.2,Potentially Unhealthy Knee
+49,Young,166,55,Male,36.5,495,0.1,0.05,0.02,0.2,0.2,9.8,Healthy Knee
+50,Senior,163,90,Female,40.4,825,1.1,1.0,0.6,2.3,2.0,9.0,Potentially Unhealthy Knee
+51,Adult,174,77,Female,38.3,725,0.6,0.4,0.3,1.2,1.0,9.5,Potentially Unhealthy Knee
+52,Young Adult,172,68,Male,36.7,660,0.3,0.15,0.1,0.6,0.4,9.7,Healthy Knee
+53,Older Adult,170,85,Male,39.0,785,0.7,0.5,0.3,1.5,1.3,9.3,Potentially Unhealthy Knee
+54,Young,164,58,Female,36.2,505,0.2,0.1,0.05,0.4,0.3,9.8,Healthy Knee
+55,Senior,162,89,Female,40.0,810,1.0,0.9,0.5,2.2,1.9,9.1,Potentially Unhealthy Knee
+56,Adult,176,80,Male,38.4,735,0.7,0.4,0.3,1.4,1.2,9.4,Potentially Unhealthy Knee
+57,Young Adult,169,65,Female,37.0,675,0.3,0.2,0.1,0.6,0.4,9.6,Healthy Knee
+58,Older Adult,167,82,Female,39.2,775,0.8,0.6,0.4,1.6,1.4,9.2,Potentially Unhealthy Knee
+59,Young,165,54,Male,36.3,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+60,Senior,161,87,Female,40.1,820,1.1,1.0,0.6,2.3,1.9,9.0,Potentially Unhealthy Knee
+61,Adult,177,78,Male,38.7,740,0.6,0.5,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+62,Young Adult,174,70,Female,37.3,680,0.3,0.2,0.1,0.8,0.6,9.6,Healthy Knee
+63,Older Adult,168,83,Male,39.5,790,0.8,0.6,0.4,1.7,1.5,9.2,Potentially Unhealthy Knee
+64,Young,163,56,Non-binary,36.5,510,0.1,0.05,0.02,0.3,0.2,9.8,Healthy Knee
+65,Senior,160,89,Female,40.2,815,1.0,0.9,0.5,2.1,1.8,9.1,Potentially Unhealthy Knee
+66,Adult,175,77,Female,38.3,720,0.6,0.4,0.3,1.3,1.0,9.5,Potentially Unhealthy Knee
+67,Young Adult,171,67,Male,36.8,665,0.3,0.2,0.1,0.7,0.5,9.6,Healthy Knee
+68,Older Adult,169,84,Female,39.4,780,0.9,0.7,0.4,1.9,1.6,9.2,Potentially Unhealthy Knee
+69,Young,165,55,Male,36.4,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+70,Senior,162,90,Female,40.3,820,1.0,0.9,0.5,2.2,1.9,9.0,Potentially Unhealthy Knee
+71,Adult,178,79,Male,38.6,735,0.7,0.5,0.3,1.5,1.2,9.4,Potentially Unhealthy Knee
+72,Young Adult,173,69,Female,37.2,670,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+73,Older Adult,166,82,Male,39.1,770,0.8,0.6,0.4,1.5,1.3,9.3,Potentially Unhealthy Knee
+74,Young,164,57,Female,36.2,495,0.1,0.05,0.02,0.2,0.2,9.8,Healthy Knee
+75,Senior,160,88,Female,40.5,825,1.1,1.0,0.6,2.4,2.0,9.1,Potentially Unhealthy Knee
+76,Adult,176,76,Male,38.4,728,0.6,0.4,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+77,Young Adult,172,68,Female,37.0,660,0.3,0.15,0.1,0.7,0.5,9.6,Healthy Knee
+78,Older Adult,167,85,Male,39.3,785,0.9,0.7,0.4,1.8,1.5,9.2,Potentially Unhealthy Knee
+79,Young,166,54,Non-binary,36.3,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+80,Senior,161,89,Female,40.0,810,1.0,0.9,0.5,2.1,1.8,9.0,Potentially Unhealthy Knee
+81,Adult,179,82,Male,38.9,745,0.7,0.5,0.3,1.4,1.2,9.4,Potentially Unhealthy Knee
+82,Young Adult,175,70,Female,37.4,685,0.3,0.2,0.1,0.7,0.5,9.7,Healthy Knee
+83,Older Adult,168,86,Female,39.6,795,0.9,0.7,0.4,1.9,1.6,9.2,Potentially Unhealthy Knee
+84,Young,162,56,Male,36.1,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+85,Senior,159,91,Female,40.6,830,1.2,1.0,0.6,2.4,2.1,9.0,Potentially Unhealthy Knee
+86,Adult,177,81,Female,38.5,730,0.6,0.4,0.3,1.2,1.0,9.4,Potentially Unhealthy Knee
+87,Young Adult,170,66,Non-binary,36.9,660,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+88,Older Adult,166,87,Male,39.7,800,1.0,0.7,0.4,2.0,1.7,9.2,Potentially Unhealthy Knee
+89,Young,164,54,Female,36.3,495,0.1,0.05,0.02,0.2,0.2,9.8,Healthy Knee
+90,Senior,160,92,Female,40.7,835,1.2,1.1,0.6,2.5,2.2,9.0,Potentially Unhealthy Knee
+91,Adult,180,83,Male,39.0,750,0.8,0.5,0.4,1.5,1.3,9.4,Potentially Unhealthy Knee
+92,Young Adult,176,71,Female,37.5,690,0.3,0.2,0.1,0.8,0.6,9.7,Healthy Knee
+93,Older Adult,169,85,Female,39.5,790,0.9,0.7,0.4,1.8,1.5,9.2,Potentially Unhealthy Knee
+94,Young,163,55,Male,36.2,505,0.2,0.1,0.05,0.4,0.3,9.8,Healthy Knee
+95,Senior,158,93,Female,40.8,840,1.3,1.1,0.7,2.6,2.3,9.0,Potentially Unhealthy Knee
+96,Adult,178,80,Male,38.8,738,0.7,0.5,0.3,1.4,1.1,9.4,Potentially Unhealthy Knee
+97,Young Adult,173,68,Non-binary,37.1,675,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+98,Older Adult,167,86,Male,39.4,785,0.8,0.6,0.4,1.7,1.4,9.2,Potentially Unhealthy Knee
+99,Young,165,53,Female,36.0,490,0.1,0.05,0.02,0.3,0.2,9.8,Healthy Knee
+100,Senior,157,94,Female,40.9,845,1.3,1.2,0.7,2.7,2.4,9.0,Potentially Unhealthy Knee
+101,Adult,181,84,Male,39.1,755,0.8,0.6,0.4,1.6,1.3,9.4,Potentially Unhealthy Knee
+102,Young Adult,177,72,Female,37.6,695,0.4,0.3,0.1,0.8,0.6,9.7,Healthy Knee
+103,Older Adult,170,87,Female,39.8,805,1.0,0.8,0.5,2.0,1.7,9.2,Potentially Unhealthy Knee
+104,Young,162,52,Male,36.1,485,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+105,Senior,156,95,Female,41.0,850,1.4,1.2,0.7,2.8,2.5,9.0,Potentially Unhealthy Knee
+106,Adult,179,82,Female,38.7,740,0.7,0.5,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+107,Young Adult,174,69,Male,37.3,680,0.3,0.2,0.1,0.7,0.5,9.7,Healthy Knee
+108,Older Adult,168,88,Female,39.9,810,1.0,0.8,0.5,2.1,1.8,9.2,Potentially Unhealthy Knee
+109,Young,164,51,Female,36.2,480,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+110,Senior,155,96,Female,41.1,855,1.5,1.3,0.8,2.9,2.6,9.0,Potentially Unhealthy Knee
+111,Adult,182,85,Male,39.2,760,0.9,0.6,0.4,1.6,1.3,9.4,Potentially Unhealthy Knee
+112,Young Adult,178,73,Female,37.7,700,0.4,0.3,0.2,0.9,0.7,9.7,Healthy Knee
+113,Older Adult,171,89,Female,40.0,815,1.1,0.9,0.5,2.2,1.9,9.2,Potentially Unhealthy Knee
+114,Young,161,50,Male,36.0,475,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+115,Senior,154,97,Female,41.2,860,1.5,1.3,0.8,3.0,2.7,9.0,Potentially Unhealthy Knee
+116,Adult,180,81,Male,38.6,735,0.8,0.5,0.3,1.5,1.2,9.4,Potentially Unhealthy Knee
+117,Young Adult,175,70,Non-binary,37.2,685,0.3,0.2,0.1,0.6,0.4,9.7,Healthy Knee
+118,Older Adult,169,90,Male,40.1,820,1.0,0.8,0.5,2.2,1.8,9.2,Potentially Unhealthy Knee
+119,Young,163,49,Female,36.1,470,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+120,Senior,153,98,Female,41.3,865,1.6,1.4,0.8,3.1,2.8,9.0,Potentially Unhealthy Knee
+121,Adult,183,86,Male,39.3,765,0.9,0.7,0.4,1.7,1.4,9.4,Potentially Unhealthy Knee
+122,Young Adult,179,74,Female,37.8,705,0.4,0.3,0.2,0.9,0.7,9.7,Healthy Knee
+123,Older Adult,172,91,Female,40.2,825,1.1,0.9,0.6,2.3,2.0,9.2,Potentially Unhealthy Knee
+124,Young,160,48,Male,35.9,470,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+125,Senior,152,99,Female,41.4,870,1.6,1.4,0.9,3.2,2.9,9.0,Potentially Unhealthy Knee
+126,Adult,181,84,Female,38.9,745,0.8,0.6,0.4,1.6,1.3,9.4,Potentially Unhealthy Knee
+127,Young Adult,176,71,Male,37.3,680,0.3,0.2,0.1,0.7,0.5,9.7,Healthy Knee
+128,Older Adult,170,92,Female,40.3,830,1.2,1.0,0.6,2.4,2.1,9.2,Potentially Unhealthy Knee
+129,Young,162,47,Female,35.8,460,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+130,Senior,151,100,Female,41.5,875,1.7,1.5,0.9,3.3,3.0,9.0,Potentially Unhealthy Knee
+131,Adult,184,87,Male,39.4,770,1.0,0.7,0.4,1.8,1.5,9.4,Potentially Unhealthy Knee
+132,Young Adult,180,75,Female,37.9,710,0.4,0.3,0.2,1.0,0.8,9.7,Healthy Knee
+133,Older Adult,173,93,Female,40.4,835,1.2,1.0,0.6,2.5,2.2,9.2,Potentially Unhealthy Knee
+134,Young,161,46,Male,35.7,455,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+135,Senior,150,101,Female,41.6,880,1.7,1.6,1.0,3.4,3.1,9.0,Potentially Unhealthy Knee
+136,Adult,182,85,Male,39.0,750,0.8,0.6,0.4,1.5,1.2,9.4,Potentially Unhealthy Knee
+137,Young Adult,177,72,Female,37.5,685,0.3,0.2,0.1,0.8,0.6,9.7,Healthy Knee
+138,Older Adult,171,94,Female,40.5,840,1.3,1.1,0.6,2.6,2.3,9.2,Potentially Unhealthy Knee
+139,Young,159,45,Female,35.6,450,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+140,Senior,149,102,Female,41.7,885,1.8,1.6,1.0,3.5,3.2,9.0,Potentially Unhealthy Knee
+141,Adult,185,88,Male,39.5,775,1.0,0.8,0.4,1.9,1.6,9.4,Potentially Unhealthy Knee
+142,Young Adult,181,76,Female,38.0,715,0.4,0.3,0.2,1.0,0.8,9.7,Healthy Knee
+143,Older Adult,174,95,Female,40.6,845,1.3,1.1,0.7,2.7,2.4,9.2,Potentially Unhealthy Knee
+144,Young,158,44,Male,35.5,445,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+145,Senior,148,103,Female,41.8,890,1.8,1.7,1.0,3.6,3.3,9.0,Potentially Unhealthy Knee
+146,Adult,183,86,Female,39.2,760,0.9,0.7,0.4,1.7,1.4,9.4,Potentially Unhealthy Knee
+147,Young Adult,178,73,Male,37.6,690,0.3,0.2,0.1,0.7,0.6,9.7,Healthy Knee
+148,Older Adult,172,96,Female,40.7,850,1.4,1.2,0.7,2.8,2.5,9.2,Potentially Unhealthy Knee
+149,Young,157,43,Female,35.4,440,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+150,Senior,147,104,Female,41.9,895,1.9,1.7,1.1,3.7,3.4,9.0,Potentially Unhealthy Knee
+151,Adult,186,89,Male,39.6,780,1.0,0.8,0.5,2.0,1.7,9.4,Potentially Unhealthy Knee
+152,Young Adult,182,77,Female,38.1,720,0.4,0.3,0.2,1.1,0.9,9.7,Healthy Knee
+153,Older Adult,175,97,Female,40.8,855,1.5,1.2,0.7,2.9,2.6,9.2,Potentially Unhealthy Knee
+154,Young,156,42,Male,35.3,435,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+155,Senior,146,105,Female,42.0,900,2.0,1.8,1.1,3.8,3.5,9.0,Potentially Unhealthy Knee
+156,Adult,184,87,Female,39.3,765,0.9,0.7,0.4,1.7,1.5,9.4,Potentially Unhealthy Knee
+157,Young Adult,179,74,Male,37.7,695,0.3,0.2,0.1,0.8,0.6,9.7,Healthy Knee
+158,Older Adult,173,98,Female,40.9,860,1.5,1.3,0.7,3.0,2.7,9.2,Potentially Unhealthy Knee
+159,Young,155,41,Female,35.2,430,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+160,Senior,145,106,Female,42.1,905,2.0,1.8,1.2,3.9,3.6,9.0,Potentially Unhealthy Knee
+161,Adult,187,90,Male,39.7,785,1.1,0.9,0.5,2.1,1.8,9.4,Potentially Unhealthy Knee
+162,Young Adult,183,78,Female,38.2,725,0.5,0.3,0.2,1.1,0.9,9.7,Healthy Knee
+163,Older Adult,176,99,Female,41.0,865,1.6,1.3,0.8,3.1,2.8,9.2,Potentially Unhealthy Knee
+164,Young,154,40,Male,35.1,425,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+165,Senior,144,107,Female,42.2,910,2.1,1.9,1.2,4.0,3.7,9.0,Potentially Unhealthy Knee
+166,Adult,185,88,Female,39.4,770,1.0,0.8,0.4,1.9,1.6,9.4,Potentially Unhealthy Knee
+167,Young Adult,180,75,Male,37.8,700,0.4,0.3,0.2,0.9,0.7,9.7,Healthy Knee
+168,Older Adult,174,100,Female,41.1,870,1.6,1.3,0.8,3.2,2.9,9.2,Potentially Unhealthy Knee
+169,Young,153,39,Female,35.0,420,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+170,Senior,143,108,Female,42.3,915,2.1,1.9,1.3,4.1,3.8,9.0,Potentially Unhealthy Knee
+171,Adult,188,91,Male,39.8,790,1.1,0.9,0.5,2.2,1.9,9.4,Potentially Unhealthy Knee
+172,Young Adult,184,79,Female,38.3,730,0.5,0.4,0.2,1.2,1.0,9.7,Healthy Knee
+173,Older Adult,177,101,Female,41.2,875,1.7,1.4,0.8,3.3,3.0,9.2,Potentially Unhealthy Knee
+174,Young,152,38,Male,34.9,415,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+175,Senior,142,109,Female,42.4,920,2.2,2.0,1.3,4.2,3.9,9.0,Potentially Unhealthy Knee
+176,Adult,186,89,Female,39.5,775,1.0,0.8,0.4,2.0,1.7,9.4,Potentially Unhealthy Knee
+177,Young Adult,181,76,Male,37.9,705,0.4,0.3,0.2,1.0,0.8,9.7,Healthy Knee
+178,Older Adult,175,102,Female,41.3,880,1.8,1.4,0.9,3.4,3.1,9.2,Potentially Unhealthy Knee
+179,Young,151,37,Female,34.8,410,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+180,Senior,141,110,Female,42.5,925,2.3,2.1,1.3,4.3,4.0,9.0,Potentially Unhealthy Knee
+181,Adult,189,92,Male,39.9,795,1.2,1.0,0.5,2.3,2.0,9.4,Potentially Unhealthy Knee
+182,Young Adult,185,80,Female,38.4,735,0.5,0.4,0.2,1.2,1.0,9.7,Healthy Knee
+183,Older Adult,178,103,Female,41.4,885,1.8,1.5,0.9,3.5,3.2,9.2,Potentially Unhealthy Knee
+184,Young,150,36,Male,34.7,405,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+185,Senior,140,111,Female,42.6,930,2.3,2.1,1.4,4.4,4.1,9.0,Potentially Unhealthy Knee
+186,Adult,187,90,Female,39.6,780,1.1,0.9,0.5,2.1,1.8,9.4,Potentially Unhealthy Knee
+187,Young Adult,182,77,Male,38.0,710,0.4,0.3,0.2,1.1,0.9,9.7,Healthy Knee
+188,Older Adult,176,104,Female,41.5,890,1.9,1.5,0.9,3.6,3.3,9.2,Potentially Unhealthy Knee
+189,Young,149,35,Female,34.6,400,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+190,Senior,139,112,Female,42.7,935,2.4,2.2,1.4,4.5,4.2,9.0,Potentially Unhealthy Knee
+191,Adult,190,93,Male,40.0,800,1.2,1.0,0.5,2.4,2.1,9.4,Potentially Unhealthy Knee
+192,Young Adult,186,81,Female,38.5,740,0.6,0.4,0.2,1.3,1.1,9.7,Healthy Knee
+193,Older Adult,179,105,Female,41.6,895,1.9,1.6,0.9,3.7,3.4,9.2,Potentially Unhealthy Knee
+194,Young,148,34,Male,34.5,395,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+195,Senior,138,113,Female,42.8,940,2.5,2.3,1.4,4.6,4.3,9.0,Potentially Unhealthy Knee
+196,Adult,188,91,Female,39.7,785,1.1,0.9,0.5,2.2,1.9,9.4,Potentially Unhealthy Knee
+197,Young Adult,183,78,Male,38.1,715,0.5,0.4,0.2,1.2,1.0,9.7,Healthy Knee
+198,Older Adult,177,106,Female,41.7,900,2.0,1.6,1.0,3.8,3.5,9.2,Potentially Unhealthy Knee
+199,Young,147,33,Female,34.4,390,0.1,0.05,0.02,0.2,0.1,9.8,Healthy Knee
+200,Senior,137,114,Female,42.9,945,2.5,2.3,1.5,4.7,4.4,9.0,Potentially Unhealthy Knee
+201,Young,164,59,Female,36.7,490,0.22,0.12,0.06,0.5,0.4,9.8,Healthy Knee
+202,Young Adult,172,70,Male,37.5,670,0.45,0.3,0.15,0.9,0.7,9.6,Healthy Knee
+203,Adult,178,83,Female,38.6,750,0.65,0.48,0.34,1.5,1.1,9.4,Potentially Unhealthy Knee
+204,Older Adult,166,86,Male,39.8,800,0.9,0.62,0.43,1.9,1.6,9.2,Potentially Unhealthy Knee
+205,Senior,160,87,Female,40.2,830,1.1,0.92,0.53,2.3,1.8,9.0,Potentially Unhealthy Knee
+206,Young,167,58,Male,36.4,510,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+207,Young Adult,174,74,Female,37.1,660,0.43,0.25,0.12,0.8,0.6,9.7,Healthy Knee
+208,Adult,180,80,Male,38.2,710,0.61,0.42,0.29,1.4,1.0,9.5,Potentially Unhealthy Knee
+209,Older Adult,170,84,Female,39.6,785,0.87,0.6,0.41,1.7,1.4,9.3,Potentially Unhealthy Knee
+210,Senior,158,89,Male,40.0,815,1.05,0.89,0.49,2.1,1.7,9.1,Potentially Unhealthy Knee
+211,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+212,Young Adult,171,69,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+213,Adult,177,78,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+214,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+215,Senior,161,90,Female,40.3,825,1.08,0.91,0.52,2.2,1.9,8.9,Potentially Unhealthy Knee
+216,Young,166,56,Male,36.6,485,0.23,0.13,0.06,0.5,0.4,9.9,Healthy Knee
+216,Young Adult,173,73,Female,37.2,660,0.41,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+218,Adult,179,82,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+219,Older Adult,167,85,Female,39.9,795,0.88,0.61,0.44,1.9,1.6,9.2,Potentially Unhealthy Knee
+220,Senior,159,88,Male,40.4,835,1.12,0.93,0.54,2.4,1.8,9.0,Potentially Unhealthy Knee
+221,Young,165,55,Female,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+222,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+223,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+224,Older Adult,171,87,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+225,Senior,157,91,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+226,Young,162,54,Male,36.3,480,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+227,Young Adult,172,72,Female,37.4,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+228,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+229,Older Adult,168,86,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+230,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+231,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+232,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+233,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+234,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+235,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+236,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+237,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+238,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+239,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+240,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+241,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+242,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+243,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+244,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+245,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+246,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+247,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+248,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+249,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+250,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+251,Young,162,56,Male,36.5,480,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+252,Young Adult,170,71,Female,37.1,665,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+253,Adult,178,82,Male,38.4,735,0.6,0.42,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+254,Older Adult,169,86,Female,39.7,785,0.87,0.6,0.41,1.8,1.5,9.2,Potentially Unhealthy Knee
+255,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+256,Young,165,58,Female,36.4,505,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+257,Young Adult,174,75,Male,37.0,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+258,Adult,176,81,Female,38.6,720,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+259,Older Adult,171,89,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+260,Senior,157,92,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+261,Young,164,57,Male,36.3,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+262,Young Adult,173,73,Female,37.4,660,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+263,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+264,Older Adult,168,84,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+265,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+266,Young,166,56,Female,36.2,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+267,Young Adult,172,72,Male,37.2,685,0.44,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+268,Adult,179,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+269,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+270,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+271,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+272,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+273,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+274,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+275,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+276,Young,164,57,Female,36.7,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+277,Young Adult,170,71,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+278,Adult,178,79,Female,38.6,750,0.65,0.48,0.34,1.5,1.1,9.4,Potentially Unhealthy Knee
+279,Older Adult,166,86,Male,39.7,800,0.9,0.62,0.43,1.9,1.6,9.2,Potentially Unhealthy Knee
+280,Senior,160,87,Female,40.1,830,1.1,0.92,0.53,2.3,1.8,9.0,Potentially Unhealthy Knee
+281,Young,167,58,Male,36.4,510,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+282,Young Adult,175,74,Female,37.5,660,0.43,0.25,0.12,0.8,0.6,9.7,Healthy Knee
+283,Adult,180,80,Male,38.2,710,0.61,0.42,0.29,1.4,1.0,9.5,Potentially Unhealthy Knee
+284,Older Adult,170,84,Female,39.6,785,0.87,0.6,0.41,1.7,1.4,9.3,Potentially Unhealthy Knee
+285,Senior,158,89,Male,40.0,815,1.05,0.89,0.49,2.1,1.7,9.1,Potentially Unhealthy Knee
+286,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+287,Young Adult,171,69,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+288,Adult,177,78,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+289,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+290,Senior,161,90,Female,40.3,825,1.08,0.91,0.52,2.2,1.9,8.9,Potentially Unhealthy Knee
+291,Young,166,56,Male,36.6,485,0.23,0.13,0.06,0.5,0.4,9.9,Healthy Knee
+292,Young Adult,173,73,Female,37.2,660,0.41,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+293,Adult,179,82,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+294,Older Adult,167,85,Female,39.9,795,0.88,0.61,0.44,1.9,1.6,9.2,Potentially Unhealthy Knee
+295,Senior,159,88,Male,40.4,835,1.12,0.93,0.54,2.4,1.8,9.0,Potentially Unhealthy Knee
+296,Young,165,55,Female,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+297,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+298,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+299,Older Adult,171,87,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+300,Senior,157,91,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+301,Young,165,58,Female,36.6,505,0.22,0.12,0.06,0.5,0.4,9.8,Healthy Knee
+302,Young Adult,171,72,Male,37.4,685,0.45,0.3,0.15,0.8,0.6,9.7,Healthy Knee
+303,Adult,178,80,Female,38.6,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+304,Older Adult,167,85,Male,39.7,795,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+305,Senior,158,90,Female,40.4,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+306,Young,164,57,Male,36.5,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+307,Young Adult,173,74,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+308,Adult,180,83,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+309,Older Adult,169,86,Female,39.9,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+310,Senior,159,91,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+311,Young,166,55,Female,36.4,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+312,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+313,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+314,Older Adult,170,88,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+315,Senior,157,92,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+316,Young,163,57,Male,36.3,485,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+317,Young Adult,172,72,Female,37.2,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+318,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+319,Older Adult,168,86,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+320,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+321,Young,161,55,Female,36.5,490,0.2,0.1,0.05,0.4,0.3,9.8,Healthy Knee
+322,Young Adult,170,69,Male,37.2,675,0.45,0.3,0.15,0.9,0.7,9.6,Healthy Knee
+323,Adult,179,82,Female,38.6,750,0.62,0.48,0.34,1.4,1.1,9.4,Potentially Unhealthy Knee
+324,Older Adult,168,85,Male,39.7,800,0.9,0.62,0.43,1.9,1.6,9.2,Potentially Unhealthy Knee
+325,Senior,157,89,Female,40.2,830,1.1,0.92,0.55,2.3,1.9,9.0,Potentially Unhealthy Knee
+326,Young,162,56,Male,36.4,510,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+327,Young Adult,174,73,Female,37.1,660,0.43,0.25,0.12,0.8,0.6,9.7,Healthy Knee
+328,Adult,181,79,Male,38.5,735,0.61,0.42,0.29,1.4,1.0,9.5,Potentially Unhealthy Knee
+329,Older Adult,169,86,Female,39.8,785,0.87,0.6,0.41,1.7,1.4,9.3,Potentially Unhealthy Knee
+330,Senior,156,91,Male,40.3,815,1.05,0.89,0.49,2.1,1.7,9.1,Potentially Unhealthy Knee
+331,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+332,Young Adult,171,70,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+333,Adult,177,77,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+334,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+335,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+336,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+337,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+338,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+339,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+340,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+341,Young,164,57,Female,36.7,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+342,Young Adult,170,71,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+343,Adult,178,79,Female,38.6,750,0.65,0.48,0.34,1.5,1.1,9.4,Potentially Unhealthy Knee
+344,Older Adult,166,86,Male,39.7,800,0.9,0.62,0.43,1.9,1.6,9.2,Potentially Unhealthy Knee
+345,Senior,160,87,Female,40.1,830,1.1,0.92,0.53,2.3,1.8,9.0,Potentially Unhealthy Knee
+346,Young,167,58,Male,36.4,510,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+347,Young Adult,175,74,Female,37.5,660,0.43,0.25,0.12,0.8,0.6,9.7,Healthy Knee
+348,Adult,180,80,Male,38.2,710,0.61,0.42,0.29,1.4,1.0,9.5,Potentially Unhealthy Knee
+349,Older Adult,170,84,Female,39.6,785,0.87,0.6,0.41,1.7,1.4,9.3,Potentially Unhealthy Knee
+350,Senior,158,89,Male,40.0,815,1.05,0.89,0.49,2.1,1.7,9.1,Potentially Unhealthy Knee
+351,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+352,Young Adult,171,69,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+353,Adult,177,78,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+354,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+355,Senior,161,90,Female,40.3,825,1.08,0.91,0.52,2.2,1.9,8.9,Potentially Unhealthy Knee
+356,Young,166,56,Male,36.6,485,0.23,0.13,0.06,0.5,0.4,9.9,Healthy Knee
+357,Young Adult,173,73,Female,37.2,660,0.41,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+358,Adult,179,82,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+359,Older Adult,167,85,Female,39.9,795,0.88,0.61,0.44,1.9,1.6,9.2,Potentially Unhealthy Knee
+360,Senior,159,88,Male,40.4,835,1.12,0.93,0.54,2.4,1.8,9.0,Potentially Unhealthy Knee
+361,Young,165,55,Female,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+362,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+363,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+364,Older Adult,171,87,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+365,Senior,157,91,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+366,Young,162,54,Male,36.3,480,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+367,Young Adult,172,72,Female,37.4,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+368,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+369,Older Adult,168,86,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+370,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+371,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+372,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+373,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+374,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+375,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+376,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+377,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+378,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+379,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+380,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+381,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+382,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+383,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+384,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+385,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+386,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+387,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+388,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+389,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+390,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+391,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+392,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+393,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+394,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+395,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+396,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+397,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+398,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+399,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+400,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+401,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+402,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+403,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+404,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+405,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+406,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+407,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+408,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+409,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+410,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+411,Young,163,55,Male,36.5,480,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+412,Young Adult,172,69,Female,37.2,670,0.4,0.2,0.1,0.7,0.5,9.7,Healthy Knee
+413,Adult,179,80,Male,38.4,740,0.6,0.4,0.3,1.3,1.1,9.4,Potentially Unhealthy Knee
+414,Older Adult,167,85,Female,39.5,790,0.8,0.6,0.4,1.7,1.4,9.2,Potentially Unhealthy Knee
+415,Senior,158,88,Female,40.2,820,1.0,0.9,0.5,2.2,1.8,9.0,Potentially Unhealthy Knee
+416,Young,165,57,Male,36.6,490,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+417,Young Adult,174,73,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+418,Adult,180,83,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+419,Older Adult,169,86,Female,39.9,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+420,Senior,159,91,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+421,Young,166,55,Female,36.4,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+422,Young Adult,173,72,Male,37.1,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+423,Adult,181,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+424,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+425,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+426,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+427,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+428,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+429,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+430,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+431,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+432,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+433,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+434,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+435,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+436,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+437,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+438,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+439,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+440,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+441,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+442,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+443,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+444,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+445,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+446,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+447,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+448,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+449,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+450,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+451,Young,165,57,Female,36.4,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+452,Young Adult,172,70,Male,37.1,670,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+453,Adult,178,83,Female,38.5,750,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+454,Older Adult,169,86,Male,39.7,800,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+455,Senior,158,91,Female,40.3,830,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+456,Young,164,58,Male,36.6,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+457,Young Adult,171,72,Female,37.3,685,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+458,Adult,177,79,Male,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+459,Older Adult,168,84,Female,39.8,790,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+460,Senior,159,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+461,Young,163,56,Female,36.5,495,0.21,0.11,0.05,0.3,0.2,9.8,Healthy Knee
+462,Young Adult,170,71,Male,37.2,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+463,Adult,181,85,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+464,Older Adult,167,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+465,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+466,Young,166,55,Male,36.3,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+467,Young Adult,173,73,Female,37.4,660,0.41,0.26,0.13,0.9,0.6,9.6,Healthy Knee
+468,Adult,180,84,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+469,Older Adult,169,87,Female,39.6,800,0.89,0.6,0.42,1.9,1.5,9.2,Potentially Unhealthy Knee
+470,Senior,160,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+471,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+472,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+473,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+474,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+475,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+476,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+477,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+478,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+479,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+480,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+481,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+482,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+483,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+484,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+485,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+486,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+487,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+488,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+489,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+490,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+491,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+492,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+493,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+494,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+495,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+496,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+497,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+498,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+499,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+500,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+501,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+502,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+503,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+504,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+505,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+506,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+507,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+508,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+509,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+510,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+511,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+512,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+513,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+514,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+515,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+516,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+517,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+518,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+519,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+520,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+521,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+522,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+523,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+524,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+525,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+526,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+527,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+528,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+529,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+530,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+531,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+532,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+533,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+534,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+535,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+536,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+537,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+538,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+539,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+540,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+541,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+542,Young Adult,171,69,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+543,Adult,177,78,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+544,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+545,Senior,161,90,Female,40.3,825,1.08,0.91,0.52,2.2,1.9,8.9,Potentially Unhealthy Knee
+546,Young,166,56,Male,36.6,485,0.23,0.13,0.06,0.5,0.4,9.9,Healthy Knee
+547,Young Adult,173,73,Female,37.2,660,0.41,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+548,Adult,179,82,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+549,Older Adult,167,85,Female,39.9,795,0.88,0.61,0.44,1.9,1.6,9.2,Potentially Unhealthy Knee
+550,Senior,159,88,Male,40.4,835,1.12,0.93,0.54,2.4,1.8,9.0,Potentially Unhealthy Knee
+551,Young,165,55,Female,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+552,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+553,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+554,Older Adult,171,87,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+555,Senior,157,91,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+556,Young,162,54,Male,36.3,480,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+557,Young Adult,172,72,Female,37.4,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+558,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+559,Older Adult,168,86,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+560,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+561,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+562,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+563,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+564,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+565,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+566,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+567,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+568,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+569,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+570,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+571,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+572,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+573,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+574,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+575,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+576,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+577,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+578,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+579,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+580,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+581,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+582,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+583,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+584,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+585,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+586,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+587,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+588,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+589,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+590,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+591,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+592,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+593,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+594,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+595,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+596,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+597,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+598,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+599,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+600,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+601,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+602,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+603,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+604,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+605,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+606,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+607,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+608,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+609,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+610,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+611,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+612,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+613,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+614,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+615,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+616,Young,163,57,Female,36.8,495,0.21,0.11,0.05,0.4,0.3,9.8,Healthy Knee
+617,Young Adult,171,69,Male,37.3,675,0.47,0.28,0.14,0.9,0.7,9.6,Healthy Knee
+618,Adult,177,78,Female,38.4,735,0.6,0.44,0.31,1.3,1.1,9.4,Potentially Unhealthy Knee
+619,Older Adult,169,83,Male,39.7,790,0.85,0.63,0.42,1.8,1.5,9.2,Potentially Unhealthy Knee
+620,Senior,161,90,Female,40.3,825,1.08,0.91,0.52,2.2,1.9,8.9,Potentially Unhealthy Knee
+621,Young,166,56,Male,36.6,485,0.23,0.13,0.06,0.5,0.4,9.9,Healthy Knee
+622,Young Adult,173,73,Female,37.2,660,0.41,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+623,Adult,179,82,Male,38.5,740,0.63,0.45,0.32,1.4,1.2,9.4,Potentially Unhealthy Knee
+624,Older Adult,167,85,Female,39.9,795,0.88,0.61,0.44,1.9,1.6,9.2,Potentially Unhealthy Knee
+625,Senior,159,88,Male,40.4,835,1.12,0.93,0.54,2.4,1.8,9.0,Potentially Unhealthy Knee
+626,Young,165,55,Female,36.5,500,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+627,Young Adult,175,76,Male,37.0,690,0.44,0.27,0.11,0.9,0.6,9.6,Healthy Knee
+628,Adult,176,81,Female,38.6,730,0.58,0.41,0.3,1.2,1.1,9.5,Potentially Unhealthy Knee
+629,Older Adult,171,87,Male,39.5,780,0.86,0.59,0.4,1.8,1.5,9.3,Potentially Unhealthy Knee
+630,Senior,157,91,Female,40.1,820,1.07,0.9,0.5,2.3,1.9,9.0,Potentially Unhealthy Knee
+631,Young,162,54,Male,36.3,480,0.19,0.1,0.05,0.4,0.3,9.9,Healthy Knee
+632,Young Adult,172,72,Female,37.4,665,0.46,0.29,0.14,0.8,0.7,9.7,Healthy Knee
+633,Adult,181,85,Male,38.3,725,0.59,0.43,0.28,1.3,1.0,9.5,Potentially Unhealthy Knee
+634,Older Adult,168,86,Female,39.6,790,0.89,0.6,0.42,1.9,1.6,9.2,Potentially Unhealthy Knee
+635,Senior,160,89,Male,40.2,840,1.09,0.91,0.51,2.2,1.8,9.1,Potentially Unhealthy Knee
+636,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+637,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+638,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+639,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+640,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+641,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+642,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+643,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+644,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+645,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+646,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+647,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+648,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+649,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+650,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+651,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+652,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+653,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+654,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+655,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+656,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+657,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+658,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+659,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+660,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+661,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+662,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+663,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+664,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+665,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+666,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+667,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+668,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+669,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+670,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+671,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+672,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+673,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+674,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+675,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+676,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+677,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+678,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+679,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+680,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+681,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+682,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+683,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+684,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+685,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+686,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+687,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+688,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+689,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+690,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+691,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+692,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+693,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+694,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+695,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+696,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+697,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+698,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+699,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+700,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+701,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+702,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+703,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+704,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+705,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+706,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+707,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+708,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+709,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+710,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+711,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+712,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+713,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+714,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+715,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+716,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+717,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+718,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+719,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+720,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+721,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+722,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+723,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+724,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+725,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+726,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+727,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+728,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+729,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+730,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+731,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+732,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+733,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+734,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+735,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+736,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+737,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+738,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+739,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+740,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+741,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+742,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+743,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+744,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+745,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+746,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+747,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+748,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+749,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+750,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+751,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+752,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+753,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+754,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+755,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+756,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+757,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+758,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+759,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+760,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+761,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+762,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+763,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+764,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+765,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+766,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+767,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+768,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+769,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+770,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+771,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+772,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+773,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+774,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+775,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+776,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+777,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+778,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+779,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+780,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+781,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+782,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+783,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+784,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+785,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+786,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+787,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+788,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+789,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+790,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+791,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+792,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+793,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+794,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+795,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+796,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+797,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+798,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+799,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+800,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+801,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+802,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+803,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+804,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+805,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+806,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+807,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+808,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+809,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+810,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+811,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+812,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+813,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+814,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+815,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+816,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+817,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+818,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+819,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+820,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+821,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+822,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+823,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+824,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+825,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+826,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+827,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+828,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+829,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+830,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+831,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+832,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+833,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+834,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+835,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+836,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+837,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+838,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+839,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+840,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+841,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+842,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+843,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+844,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+845,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+846,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+847,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+848,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+849,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+850,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+851,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+852,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+853,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+854,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+855,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+856,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+857,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+858,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+859,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+860,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+861,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+862,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+863,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+864,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+865,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+866,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+867,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+868,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+869,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+870,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+871,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+872,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+873,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+874,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+875,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+876,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+877,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+878,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+879,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+880,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+881,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+882,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+883,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+884,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+885,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+886,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+887,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+888,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+889,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+890,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+891,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+892,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+893,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+894,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+895,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+896,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+897,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+898,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+899,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+900,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+901,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+902,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+903,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+904,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+905,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+906,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+907,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+908,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+909,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+910,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+911,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+912,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+913,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+914,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+915,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+916,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+917,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+918,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+919,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+920,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+921,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+922,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+923,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+924,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+925,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+926,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+927,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+928,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+929,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+930,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+931,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+932,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+933,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+934,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+935,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+936,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+937,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+938,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+939,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+940,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+941,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+942,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+943,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+944,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+945,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+946,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+947,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+948,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+949,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+950,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+951,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+952,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+953,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+954,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+955,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+956,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+957,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+958,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+959,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+960,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+961,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+962,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+963,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+964,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+965,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+966,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+967,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+968,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+969,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+970,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+971,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+972,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+973,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+974,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+975,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+976,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee
+977,Older Adult,168,84,Male,39.9,790,0.86,0.63,0.42,1.8,1.6,9.2,Potentially Unhealthy Knee
+978,Senior,157,93,Female,40.1,810,1.08,0.9,0.53,2.2,1.9,9.1,Potentially Unhealthy Knee
+979,Young,163,57,Male,36.4,485,0.2,0.1,0.04,0.4,0.3,9.9,Healthy Knee
+980,Young Adult,175,77,Female,37.5,695,0.46,0.28,0.14,0.9,0.7,9.7,Healthy Knee
+981,Adult,176,82,Male,38.5,720,0.6,0.43,0.31,1.3,1.0,9.4,Potentially Unhealthy Knee
+982,Older Adult,171,89,Female,39.6,795,0.88,0.61,0.43,1.9,1.5,9.3,Potentially Unhealthy Knee
+983,Senior,156,91,Male,40.4,820,1.1,0.91,0.54,2.3,1.9,9.0,Potentially Unhealthy Knee
+984,Young,164,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+985,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+986,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+987,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+988,Young,165,58,Female,36.7,505,0.22,0.12,0.06,0.4,0.3,9.8,Healthy Knee
+989,Young Adult,170,71,Male,37.1,685,0.45,0.3,0.15,0.8,0.6,9.6,Healthy Knee
+990,Adult,178,79,Female,38.7,735,0.62,0.44,0.33,1.4,1.1,9.4,Potentially Unhealthy Knee
+991,Older Adult,169,85,Male,39.8,805,0.9,0.62,0.43,1.8,1.5,9.3,Potentially Unhealthy Knee
+992,Senior,158,92,Female,40.5,825,1.1,0.92,0.55,2.3,1.9,8.9,Potentially Unhealthy Knee
+993,Young,165,59,Male,36.6,495,0.21,0.11,0.05,0.4,0.3,9.9,Healthy Knee
+994,Young Adult,174,75,Female,37.3,675,0.43,0.26,0.13,0.8,0.6,9.7,Healthy Knee
+995,Adult,177,84,Male,38.4,745,0.6,0.42,0.3,1.3,1.2,9.4,Potentially Unhealthy Knee
+996,Older Adult,170,88,Female,39.7,800,0.87,0.6,0.41,1.9,1.5,9.2,Potentially Unhealthy Knee
+997,Senior,159,90,Male,40.3,830,1.11,0.93,0.52,2.3,1.8,9.0,Potentially Unhealthy Knee
+998,Young,166,56,Female,36.5,490,0.2,0.1,0.05,0.3,0.2,9.8,Healthy Knee
+999,Young Adult,173,73,Male,37.2,660,0.41,0.27,0.12,0.9,0.6,9.6,Healthy Knee
+1000,Adult,180,86,Female,38.6,755,0.63,0.45,0.32,1.4,1.1,9.5,Potentially Unhealthy Knee

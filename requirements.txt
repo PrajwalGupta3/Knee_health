@@ -1,0 +1,8 @@
+flask
+numpy
+joblib
+scikit-learn
+python-dotenv
+joblib
+numpy
+groq
